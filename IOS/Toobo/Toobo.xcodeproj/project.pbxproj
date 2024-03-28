@@ -7,66 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		410C3FA42BB4817200831DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FA32BB4817200831DD7 /* AppDelegate.swift */; };
-		410C3FA62BB4817200831DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FA52BB4817200831DD7 /* SceneDelegate.swift */; };
-		410C3FA82BB4817200831DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FA72BB4817200831DD7 /* ViewController.swift */; };
-		410C3FAB2BB4817200831DD7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 410C3FAA2BB4817200831DD7 /* Base */; };
-		410C3FAD2BB4817500831DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C3FAC2BB4817500831DD7 /* Assets.xcassets */; };
-		410C3FB02BB4817500831DD7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 410C3FAF2BB4817500831DD7 /* Base */; };
-		410C3FBB2BB4817500831DD7 /* TooboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FBA2BB4817500831DD7 /* TooboTests.swift */; };
-		410C3FC52BB4817500831DD7 /* TooboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FC42BB4817500831DD7 /* TooboUITests.swift */; };
-		410C3FC72BB4817500831DD7 /* TooboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C3FC62BB4817500831DD7 /* TooboUITestsLaunchTests.swift */; };
+		4172F8F02BB5CEEE00078515 /* TooboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F8EF2BB5CEEE00078515 /* TooboApp.swift */; };
+		4172F8F22BB5CEEE00078515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F8F12BB5CEEE00078515 /* ContentView.swift */; };
+		4172F8F42BB5CEEF00078515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4172F8F32BB5CEEF00078515 /* Assets.xcassets */; };
+		4172F8F72BB5CEEF00078515 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4172F8F62BB5CEEF00078515 /* Preview Assets.xcassets */; };
+		4172F9252BB5D4DA00078515 /* LoginFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F9242BB5D4DA00078515 /* LoginFunction.swift */; };
+		4172F9272BB5D4EA00078515 /* RegisterFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F9262BB5D4EA00078515 /* RegisterFunction.swift */; };
+		4172F9292BB5D50200078515 /* AuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F9282BB5D50200078515 /* AuthPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		410C3FB72BB4817500831DD7 /* PBXContainerItemProxy */ = {
+		4172F8FD2BB5CEEF00078515 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 410C3F982BB4817200831DD7 /* Project object */;
+			containerPortal = 4172F8E42BB5CEEE00078515 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 410C3F9F2BB4817200831DD7;
+			remoteGlobalIDString = 4172F8EB2BB5CEEE00078515;
 			remoteInfo = Toobo;
 		};
-		410C3FC12BB4817500831DD7 /* PBXContainerItemProxy */ = {
+		4172F9072BB5CEEF00078515 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 410C3F982BB4817200831DD7 /* Project object */;
+			containerPortal = 4172F8E42BB5CEEE00078515 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 410C3F9F2BB4817200831DD7;
+			remoteGlobalIDString = 4172F8EB2BB5CEEE00078515;
 			remoteInfo = Toobo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		410C3FA02BB4817200831DD7 /* Toobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		410C3FA32BB4817200831DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		410C3FA52BB4817200831DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		410C3FA72BB4817200831DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		410C3FAA2BB4817200831DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		410C3FAC2BB4817500831DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		410C3FAF2BB4817500831DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		410C3FB12BB4817500831DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		410C3FB62BB4817500831DD7 /* TooboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		410C3FBA2BB4817500831DD7 /* TooboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooboTests.swift; sourceTree = "<group>"; };
-		410C3FC02BB4817500831DD7 /* TooboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		410C3FC42BB4817500831DD7 /* TooboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooboUITests.swift; sourceTree = "<group>"; };
-		410C3FC62BB4817500831DD7 /* TooboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4172F8EC2BB5CEEE00078515 /* Toobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4172F8EF2BB5CEEE00078515 /* TooboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooboApp.swift; sourceTree = "<group>"; };
+		4172F8F12BB5CEEE00078515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4172F8F32BB5CEEF00078515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4172F8F62BB5CEEF00078515 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4172F8FC2BB5CEEF00078515 /* TooboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4172F9062BB5CEEF00078515 /* TooboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4172F9242BB5D4DA00078515 /* LoginFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFunction.swift; sourceTree = "<group>"; };
+		4172F9262BB5D4EA00078515 /* RegisterFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFunction.swift; sourceTree = "<group>"; };
+		4172F9282BB5D50200078515 /* AuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		410C3F9D2BB4817200831DD7 /* Frameworks */ = {
+		4172F8E92BB5CEEE00078515 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FB32BB4817500831DD7 /* Frameworks */ = {
+		4172F8F92BB5CEEF00078515 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FBD2BB4817500831DD7 /* Frameworks */ = {
+		4172F9032BB5CEEF00078515 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,67 +71,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		410C3F972BB4817200831DD7 = {
+		4172F8E32BB5CEEE00078515 = {
 			isa = PBXGroup;
 			children = (
-				410C3FA22BB4817200831DD7 /* Toobo */,
-				410C3FB92BB4817500831DD7 /* TooboTests */,
-				410C3FC32BB4817500831DD7 /* TooboUITests */,
-				410C3FA12BB4817200831DD7 /* Products */,
+				4172F8EE2BB5CEEE00078515 /* Toobo */,
+				4172F8FF2BB5CEEF00078515 /* TooboTests */,
+				4172F9092BB5CEEF00078515 /* TooboUITests */,
+				4172F8ED2BB5CEEE00078515 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		410C3FA12BB4817200831DD7 /* Products */ = {
+		4172F8ED2BB5CEEE00078515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				410C3FA02BB4817200831DD7 /* Toobo.app */,
-				410C3FB62BB4817500831DD7 /* TooboTests.xctest */,
-				410C3FC02BB4817500831DD7 /* TooboUITests.xctest */,
+				4172F8EC2BB5CEEE00078515 /* Toobo.app */,
+				4172F8FC2BB5CEEF00078515 /* TooboTests.xctest */,
+				4172F9062BB5CEEF00078515 /* TooboUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		410C3FA22BB4817200831DD7 /* Toobo */ = {
+		4172F8EE2BB5CEEE00078515 /* Toobo */ = {
 			isa = PBXGroup;
 			children = (
-				410C3FA32BB4817200831DD7 /* AppDelegate.swift */,
-				410C3FA52BB4817200831DD7 /* SceneDelegate.swift */,
-				410C3FA72BB4817200831DD7 /* ViewController.swift */,
-				410C3FA92BB4817200831DD7 /* Main.storyboard */,
-				410C3FAC2BB4817500831DD7 /* Assets.xcassets */,
-				410C3FAE2BB4817500831DD7 /* LaunchScreen.storyboard */,
-				410C3FB12BB4817500831DD7 /* Info.plist */,
+				4172F9212BB5D41E00078515 /* Back */,
+				4172F9202BB5D40E00078515 /* Front */,
+				4172F8EF2BB5CEEE00078515 /* TooboApp.swift */,
+				4172F8F12BB5CEEE00078515 /* ContentView.swift */,
+				4172F8F32BB5CEEF00078515 /* Assets.xcassets */,
+				4172F8F52BB5CEEF00078515 /* Preview Content */,
 			);
 			path = Toobo;
 			sourceTree = "<group>";
 		};
-		410C3FB92BB4817500831DD7 /* TooboTests */ = {
+		4172F8F52BB5CEEF00078515 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				410C3FBA2BB4817500831DD7 /* TooboTests.swift */,
+				4172F8F62BB5CEEF00078515 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4172F8FF2BB5CEEF00078515 /* TooboTests */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = TooboTests;
 			sourceTree = "<group>";
 		};
-		410C3FC32BB4817500831DD7 /* TooboUITests */ = {
+		4172F9092BB5CEEF00078515 /* TooboUITests */ = {
 			isa = PBXGroup;
 			children = (
-				410C3FC42BB4817500831DD7 /* TooboUITests.swift */,
-				410C3FC62BB4817500831DD7 /* TooboUITestsLaunchTests.swift */,
 			);
 			path = TooboUITests;
+			sourceTree = "<group>";
+		};
+		4172F9202BB5D40E00078515 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				4172F9222BB5D42600078515 /* AuthPage */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		4172F9212BB5D41E00078515 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				4172F9232BB5D4B700078515 /* AuthFunc */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		4172F9222BB5D42600078515 /* AuthPage */ = {
+			isa = PBXGroup;
+			children = (
+				4172F9282BB5D50200078515 /* AuthPage.swift */,
+			);
+			path = AuthPage;
+			sourceTree = "<group>";
+		};
+		4172F9232BB5D4B700078515 /* AuthFunc */ = {
+			isa = PBXGroup;
+			children = (
+				4172F9242BB5D4DA00078515 /* LoginFunction.swift */,
+				4172F9262BB5D4EA00078515 /* RegisterFunction.swift */,
+			);
+			path = AuthFunc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		410C3F9F2BB4817200831DD7 /* Toobo */ = {
+		4172F8EB2BB5CEEE00078515 /* Toobo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 410C3FCA2BB4817500831DD7 /* Build configuration list for PBXNativeTarget "Toobo" */;
+			buildConfigurationList = 4172F9102BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "Toobo" */;
 			buildPhases = (
-				410C3F9C2BB4817200831DD7 /* Sources */,
-				410C3F9D2BB4817200831DD7 /* Frameworks */,
-				410C3F9E2BB4817200831DD7 /* Resources */,
+				4172F8E82BB5CEEE00078515 /* Sources */,
+				4172F8E92BB5CEEE00078515 /* Frameworks */,
+				4172F8EA2BB5CEEE00078515 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +176,69 @@
 			);
 			name = Toobo;
 			productName = Toobo;
-			productReference = 410C3FA02BB4817200831DD7 /* Toobo.app */;
+			productReference = 4172F8EC2BB5CEEE00078515 /* Toobo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		410C3FB52BB4817500831DD7 /* TooboTests */ = {
+		4172F8FB2BB5CEEF00078515 /* TooboTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 410C3FCD2BB4817500831DD7 /* Build configuration list for PBXNativeTarget "TooboTests" */;
+			buildConfigurationList = 4172F9132BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "TooboTests" */;
 			buildPhases = (
-				410C3FB22BB4817500831DD7 /* Sources */,
-				410C3FB32BB4817500831DD7 /* Frameworks */,
-				410C3FB42BB4817500831DD7 /* Resources */,
+				4172F8F82BB5CEEF00078515 /* Sources */,
+				4172F8F92BB5CEEF00078515 /* Frameworks */,
+				4172F8FA2BB5CEEF00078515 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				410C3FB82BB4817500831DD7 /* PBXTargetDependency */,
+				4172F8FE2BB5CEEF00078515 /* PBXTargetDependency */,
 			);
 			name = TooboTests;
 			productName = TooboTests;
-			productReference = 410C3FB62BB4817500831DD7 /* TooboTests.xctest */;
+			productReference = 4172F8FC2BB5CEEF00078515 /* TooboTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		410C3FBF2BB4817500831DD7 /* TooboUITests */ = {
+		4172F9052BB5CEEF00078515 /* TooboUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 410C3FD02BB4817500831DD7 /* Build configuration list for PBXNativeTarget "TooboUITests" */;
+			buildConfigurationList = 4172F9162BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "TooboUITests" */;
 			buildPhases = (
-				410C3FBC2BB4817500831DD7 /* Sources */,
-				410C3FBD2BB4817500831DD7 /* Frameworks */,
-				410C3FBE2BB4817500831DD7 /* Resources */,
+				4172F9022BB5CEEF00078515 /* Sources */,
+				4172F9032BB5CEEF00078515 /* Frameworks */,
+				4172F9042BB5CEEF00078515 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				410C3FC22BB4817500831DD7 /* PBXTargetDependency */,
+				4172F9082BB5CEEF00078515 /* PBXTargetDependency */,
 			);
 			name = TooboUITests;
 			productName = TooboUITests;
-			productReference = 410C3FC02BB4817500831DD7 /* TooboUITests.xctest */;
+			productReference = 4172F9062BB5CEEF00078515 /* TooboUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		410C3F982BB4817200831DD7 /* Project object */ = {
+		4172F8E42BB5CEEE00078515 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					410C3F9F2BB4817200831DD7 = {
+					4172F8EB2BB5CEEE00078515 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					410C3FB52BB4817500831DD7 = {
+					4172F8FB2BB5CEEF00078515 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 410C3F9F2BB4817200831DD7;
+						TestTargetID = 4172F8EB2BB5CEEE00078515;
 					};
-					410C3FBF2BB4817500831DD7 = {
+					4172F9052BB5CEEF00078515 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 410C3F9F2BB4817200831DD7;
+						TestTargetID = 4172F8EB2BB5CEEE00078515;
 					};
 				};
 			};
-			buildConfigurationList = 410C3F9B2BB4817200831DD7 /* Build configuration list for PBXProject "Toobo" */;
+			buildConfigurationList = 4172F8E72BB5CEEE00078515 /* Build configuration list for PBXProject "Toobo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +246,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 410C3F972BB4817200831DD7;
-			productRefGroup = 410C3FA12BB4817200831DD7 /* Products */;
+			mainGroup = 4172F8E32BB5CEEE00078515;
+			productRefGroup = 4172F8ED2BB5CEEE00078515 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				410C3F9F2BB4817200831DD7 /* Toobo */,
-				410C3FB52BB4817500831DD7 /* TooboTests */,
-				410C3FBF2BB4817500831DD7 /* TooboUITests */,
+				4172F8EB2BB5CEEE00078515 /* Toobo */,
+				4172F8FB2BB5CEEF00078515 /* TooboTests */,
+				4172F9052BB5CEEF00078515 /* TooboUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		410C3F9E2BB4817200831DD7 /* Resources */ = {
+		4172F8EA2BB5CEEE00078515 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C3FAD2BB4817500831DD7 /* Assets.xcassets in Resources */,
-				410C3FB02BB4817500831DD7 /* Base in Resources */,
-				410C3FAB2BB4817200831DD7 /* Base in Resources */,
+				4172F8F72BB5CEEF00078515 /* Preview Assets.xcassets in Resources */,
+				4172F8F42BB5CEEF00078515 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FB42BB4817500831DD7 /* Resources */ = {
+		4172F8FA2BB5CEEF00078515 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FBE2BB4817500831DD7 /* Resources */ = {
+		4172F9042BB5CEEF00078515 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +285,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		410C3F9C2BB4817200831DD7 /* Sources */ = {
+		4172F8E82BB5CEEE00078515 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C3FA82BB4817200831DD7 /* ViewController.swift in Sources */,
-				410C3FA42BB4817200831DD7 /* AppDelegate.swift in Sources */,
-				410C3FA62BB4817200831DD7 /* SceneDelegate.swift in Sources */,
+				4172F9272BB5D4EA00078515 /* RegisterFunction.swift in Sources */,
+				4172F9252BB5D4DA00078515 /* LoginFunction.swift in Sources */,
+				4172F8F22BB5CEEE00078515 /* ContentView.swift in Sources */,
+				4172F9292BB5D50200078515 /* AuthPage.swift in Sources */,
+				4172F8F02BB5CEEE00078515 /* TooboApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FB22BB4817500831DD7 /* Sources */ = {
+		4172F8F82BB5CEEF00078515 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C3FBB2BB4817500831DD7 /* TooboTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410C3FBC2BB4817500831DD7 /* Sources */ = {
+		4172F9022BB5CEEF00078515 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C3FC72BB4817500831DD7 /* TooboUITestsLaunchTests.swift in Sources */,
-				410C3FC52BB4817500831DD7 /* TooboUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		410C3FB82BB4817500831DD7 /* PBXTargetDependency */ = {
+		4172F8FE2BB5CEEF00078515 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 410C3F9F2BB4817200831DD7 /* Toobo */;
-			targetProxy = 410C3FB72BB4817500831DD7 /* PBXContainerItemProxy */;
+			target = 4172F8EB2BB5CEEE00078515 /* Toobo */;
+			targetProxy = 4172F8FD2BB5CEEF00078515 /* PBXContainerItemProxy */;
 		};
-		410C3FC22BB4817500831DD7 /* PBXTargetDependency */ = {
+		4172F9082BB5CEEF00078515 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 410C3F9F2BB4817200831DD7 /* Toobo */;
-			targetProxy = 410C3FC12BB4817500831DD7 /* PBXContainerItemProxy */;
+			target = 4172F8EB2BB5CEEE00078515 /* Toobo */;
+			targetProxy = 4172F9072BB5CEEF00078515 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		410C3FA92BB4817200831DD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410C3FAA2BB4817200831DD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		410C3FAE2BB4817500831DD7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410C3FAF2BB4817500831DD7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		410C3FC82BB4817500831DD7 /* Debug */ = {
+		4172F90E2BB5CEEF00078515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -379,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		410C3FC92BB4817500831DD7 /* Release */ = {
+		4172F90F2BB5CEEF00078515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -435,18 +446,19 @@
 			};
 			name = Release;
 		};
-		410C3FCB2BB4817500831DD7 /* Debug */ = {
+		4172F9112BB5CEEF00078515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toobo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Toobo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,18 +474,19 @@
 			};
 			name = Debug;
 		};
-		410C3FCC2BB4817500831DD7 /* Release */ = {
+		4172F9122BB5CEEF00078515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toobo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Toobo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,7 +502,7 @@
 			};
 			name = Release;
 		};
-		410C3FCE2BB4817500831DD7 /* Debug */ = {
+		4172F9142BB5CEEF00078515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,7 +521,7 @@
 			};
 			name = Debug;
 		};
-		410C3FCF2BB4817500831DD7 /* Release */ = {
+		4172F9152BB5CEEF00078515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,7 +540,7 @@
 			};
 			name = Release;
 		};
-		410C3FD12BB4817500831DD7 /* Debug */ = {
+		4172F9172BB5CEEF00078515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,7 +557,7 @@
 			};
 			name = Debug;
 		};
-		410C3FD22BB4817500831DD7 /* Release */ = {
+		4172F9182BB5CEEF00078515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,43 +577,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		410C3F9B2BB4817200831DD7 /* Build configuration list for PBXProject "Toobo" */ = {
+		4172F8E72BB5CEEE00078515 /* Build configuration list for PBXProject "Toobo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				410C3FC82BB4817500831DD7 /* Debug */,
-				410C3FC92BB4817500831DD7 /* Release */,
+				4172F90E2BB5CEEF00078515 /* Debug */,
+				4172F90F2BB5CEEF00078515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		410C3FCA2BB4817500831DD7 /* Build configuration list for PBXNativeTarget "Toobo" */ = {
+		4172F9102BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "Toobo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				410C3FCB2BB4817500831DD7 /* Debug */,
-				410C3FCC2BB4817500831DD7 /* Release */,
+				4172F9112BB5CEEF00078515 /* Debug */,
+				4172F9122BB5CEEF00078515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		410C3FCD2BB4817500831DD7 /* Build configuration list for PBXNativeTarget "TooboTests" */ = {
+		4172F9132BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "TooboTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				410C3FCE2BB4817500831DD7 /* Debug */,
-				410C3FCF2BB4817500831DD7 /* Release */,
+				4172F9142BB5CEEF00078515 /* Debug */,
+				4172F9152BB5CEEF00078515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		410C3FD02BB4817500831DD7 /* Build configuration list for PBXNativeTarget "TooboUITests" */ = {
+		4172F9162BB5CEEF00078515 /* Build configuration list for PBXNativeTarget "TooboUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				410C3FD12BB4817500831DD7 /* Debug */,
-				410C3FD22BB4817500831DD7 /* Release */,
+				4172F9172BB5CEEF00078515 /* Debug */,
+				4172F9182BB5CEEF00078515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 410C3F982BB4817200831DD7 /* Project object */;
+	rootObject = 4172F8E42BB5CEEE00078515 /* Project object */;
 }
