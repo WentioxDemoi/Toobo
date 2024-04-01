@@ -52,7 +52,7 @@ struct WelcomePage: View {
                 Button(action: {
                     print ("Google")// Action à effectuer lorsque le bouton est pressé
                 }) {
-                    Image("googleImage")
+                    Image("GoogleLogo")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 50, height: 50)
@@ -62,7 +62,7 @@ struct WelcomePage: View {
                 Button(action: {
                     print ("Github")// Action à effectuer lorsque le bouton est pressé
                 }) {
-                    Image("githubImage")
+                    Image("GithubLogo")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 50, height: 50)
